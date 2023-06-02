@@ -1,0 +1,25 @@
+.GamesList{
+    width: 50%;
+    background-color: white;
+    margin: auto;
+    &-Card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 1rem;
+        width: 90%;
+        &-Image {
+            width: 30%;
+            margin-right: 10px;
+            img {
+                width: 100%;
+            }
+        }
+        &-Info {
+            &-Title {
+                font-weight: bold;
+                min-height: 30px;
+            }
+        }
+    }
+}

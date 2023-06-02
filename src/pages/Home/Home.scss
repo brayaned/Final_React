@@ -1,0 +1,49 @@
+.Home{
+    .GamesList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        &-Container{
+            width: 1200px;
+            margin: 40px auto;
+            background-color: white;
+        }
+        &-Card {
+            margin: 10px;
+            display: flex;
+            &-Image {
+                width: 30%;
+                margin-right: 10px;
+                img{
+                    width: 100%;
+                }
+            }
+            &-Info{
+                &-Title{
+                    font-weight: bold;
+                    min-height: 30px;
+                }
+            }
+        }
+        &-Block{
+            &-Title{
+                font-size: 30px;
+                font-weight: bold;
+                margin: 10px;
+                height: 30px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    [class*="col"] {
+        border-right: #40427A solid 1px;
+        margin: 5px;
+        &:last-child {
+            border-right: none;
+        }
+    }
+}
+
+body{
+    background-color: #40427A;
+}

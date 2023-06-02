@@ -1,0 +1,16 @@
+.register{
+    &-container{
+        width: 20%;
+        background-color: white;
+        margin: auto;
+        padding: 10px;
+    }
+    &-form{
+        &-item{
+            margin: 5px 0;
+            label{
+                margin-right: 5px;
+            }
+        }
+    }
+}

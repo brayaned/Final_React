@@ -1,0 +1,73 @@
+.Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #1b1e7a;
+    color: white;
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-size: large;
+    flex-direction: column;
+    &-Logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+        font-size: larger;
+        color: white;
+        margin-bottom: 20px;
+        .Header-Logo__img{
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+    }
+    &-LoginNav{
+        width: 95%;
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            li a{
+                color: white;
+                text-decoration: none;
+            }
+        }
+        &-Item{
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    }
+    .NavList{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        &__item{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            &__link{
+                color: white;
+                text-decoration: none;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                &__icon{
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

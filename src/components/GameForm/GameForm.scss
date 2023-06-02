@@ -1,0 +1,39 @@
+.game-form{
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 400px;
+    border-radius: 15px;
+    color: white;
+    justify-content: center;
+    padding: 20px;
+    &-input{
+        &-container{
+            display: flex;
+            flex-direction: column;
+            margin: 10px 0;
+            &-label{
+                margin-bottom: 5px;
+            }
+            &-input{
+                height: 30px;
+                border-radius: 5px;
+                border: none;
+                padding: 0 5px;
+            }
+        }
+    }
+    &-submit{
+        margin: auto;
+        margin-top: 10px;
+        width: 50%;
+        height: 30px;
+        border-radius: 5px;
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: center;
+        &:hover{
+            background-color: #343a40;
+            color: white;
+        }
+    }
+}

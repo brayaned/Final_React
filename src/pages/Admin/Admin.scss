@@ -1,0 +1,35 @@
+.Admin{
+    &-Container{
+        width: 60%;
+        background-color: white;
+        margin: auto;
+        padding: 10px;
+        &-Content{
+            &-Item{
+                border-top: #212529 1px solid;
+                justify-content: space-between;
+                align-items: center;
+                margin: 10px 0;
+                &-Label{
+                    width: 30%;
+                }
+                &-Input{
+                    width: 60%;
+                }
+            }
+            &-Items{
+                display: flex;
+                flex-direction: column;
+                padding: 0 10px;
+            }
+        }
+    }
+    &-Game{
+        margin: 5px 0;
+        display: flex;
+        justify-content: space-between;
+        &-Remove{
+            height: 30px;
+        }
+    }
+}
